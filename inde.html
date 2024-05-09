@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="shortcut icon" href="https://images.vexels.com/media/users/3/157888/isolated/preview/1fe47feaaf155dbf296419d4bd8239c3-icono-de-marca-de-verificacion-de-trazo-de-pincel.png?width=710" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+    <div class="container">
+        <div class="calculadora">
+            <div class="pantalla">
+                <textarea name="" id="pantalla" placeholder="Numero" rows="1"></textarea>
+            </div>
+            <div class="resultado">
+                <button onclick="Calcular();">Resultado</button>
+                <button onclick="Borrar();">Borrar</button>
+                <button onclick="BorrarHaciaTras();"><i class="fa-solid fa-arrow-left"></i></button>
+            </div>
+            <div class="layout">
+                <main>
+                    <div class="title-wrapper">
+                        <article class="Numero1">
+                            <h2>1</h2>
+                        </article>
+
+                        <article class="Numero2">
+                            <h2>2</h2>
+                        </article>
+                        
+                        <article class="Numero3">
+                            <h2>3</h2>
+                        </article>
+                        
+                        <article class="Numero4">
+                            <h2>4</h2>
+                        </article>
+                        
+                        <article class="Numero5">
+                            <h2>5</h2>
+                        </article>
+                 
+                        <article class="Numero6">
+                            <h2>6</h2>
+                        </article>
+              
+                        <article class="Numero7">
+                            <h2>7</h2>
+                        </article>
+              
+                        <article class="Numero8">
+                            <h2>8</h2>
+                        </article>
+                    
+                        <article class="Numero9">
+                            <h2>9</h2>
+                        </article>
+                        
+                        <article class="NumeroMas">
+                            <h2>+</h2>
+                        </article>
+                        
+                        <article class="Numero0">
+                            <h2>0</h2>
+                        </article>
+
+                        <article class="NumeroMenos">
+                            <h2>-</h2>
+                        </article>
+                    </div>
+                </main>
+            </div>
+            <!--<div class="teclas">
+                <div class="Numero1">1</div>
+                <div class="Numero2">2</div>
+                <div class="Numero3">3</div>
+                <div class="Numero4">4</div>
+                <div class="Numero5">5</div>
+                <div class="Numero6">6</div>
+                <div class="Numero7">7</div>
+                <div class="Numero8">8</div>
+                <div class="Numero9">9</div>
+                <div class="Numero0">0</div>
+            </div>-->
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>

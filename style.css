@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: monospace;
+    color: aliceblue;
+}
+
+body{
+    background-color: darkturquoise;
+}
+
+.container{
+    width: 40%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border: solid 1px #0000003F;
+    transform: translate(-50%,-50%);
+    border-radius: 1rem;
+    background-color: aliceblue;
+    box-shadow: 2px 3px 2rem #0000003f;
+}
+
+.pantalla{
+    padding: 15px;
+}
+
+.pantalla textarea{
+    margin-top: 0.75rem;
+    width: 91%;
+    padding: 1rem;
+    font-size: 4rem;
+    border: none;
+    border-radius: 7px;
+    box-shadow: 1px 1px 0.5em #0000003F;
+    color: black;
+}
+
+.title-wrapper article{
+    cursor: pointer;
+}
+
+.resultado{
+    margin-left: 1rem;
+}
+
+button{
+    font-size: 1.4rem;
+    padding: 1%;
+    background-color: darkcyan;
+    border: 0;
+    border-radius: 5px;    
+}
+
+button:active{
+   background-color: aliceblue;
+   color: darkcyan;
+}
